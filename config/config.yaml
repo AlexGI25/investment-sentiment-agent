@@ -1,0 +1,28 @@
+project:
+  name: "Data-Driven Investment Decision Optimization"
+  market: "US"
+  frequency: "daily"
+
+data:
+  start_date: "2018-01-01"
+  end_date: "2025-12-31"
+  tickers:
+    - AAPL
+    - MSFT
+    - NVDA
+    - META
+    - TSLA
+    - AMZN
+    - JPM
+    - XOM
+    - UNH
+    - AMD
+
+paths:
+  raw_data: "data/raw/"
+  interim_data: "data/interim/"
+  processed_data: "data/processed/"
+
+model:
+  prediction_horizon_days: null
+  n_classes: null
