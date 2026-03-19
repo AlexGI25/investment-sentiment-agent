@@ -1,7 +1,7 @@
 import pandas as pd
 from pandas_datareader import data as web
 
-start_date = "2018-01-01"
+start_date = "2017-12-01"
 end_date = "2025-12-31"
 
 fred_series = {
